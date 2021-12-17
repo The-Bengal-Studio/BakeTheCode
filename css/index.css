@@ -1,0 +1,67 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+body{
+    background-image: linear-gradient(to left, rgb(20, 20, 20) , #292b2c);
+}
+
+#heading{
+    color: white;
+    font-size: 19px;
+    min-height: auto;
+ }
+ #heading:after {
+    content: '\200b';
+}
+.contentInSite
+{
+    color:white;
+}
+.whatsNewSection{
+    border: 3px double red;
+    border-radius: 6px;
+    background-color: rgb(255, 243, 225);
+    color: black;
+    margin: 6px auto;
+    font-style: bold;
+}
+.imgIcon{
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    margin: 27px auto;
+}
+.imgProperty{
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    transition: all 0.2s;
+}
+.imgProperty:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 21px 3px red;
+}
+#emailHelpSection{
+    color: white;
+}
+.lineHorizontal{
+    color: white;
+    border: 2px solid white;
+}
+.socials{
+    transition: all 0.2s;
+}
+.socials:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.carousalProp{
+    height: 600px;
+}
+
+#quote, #author{
+    color: rgb(202, 202, 202);
+    font-style: italic;
+    font-size: 15px;
+}

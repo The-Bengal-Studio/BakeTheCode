@@ -1,0 +1,74 @@
+*{
+    font-family: 'Merriweather', sans-serif;   
+}
+body{
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0),rgb(104, 0, 104));
+    color: azure;
+}
+
+h3{
+    color: azure;
+    text-align: center;
+    font-family: 'Abhaya Libre', serif;
+}
+.shortInfo{
+    background-image: none;
+    color: #FFFF00;
+    font-family: 'Play', sans-serif;
+}
+.longInfo{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif; 
+}
+.flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 350px;
+    border: 1px solid transparent;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    /* margin: 50px;
+    padding: 50px; */
+    }
+    
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+    background-image: none;
+    opacity: 0px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    }
+    
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    }
+    
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back {
+    position: absolute;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    }
+
+    
+    /* Style the back side */
+    .flip-card-back {
+        height: 350px;
+        width: 350px;
+        background-image: linear-gradient(to bottom right, rgb(18, 18, 18), rgb(70, 19, 19));
+        color: white;
+        transform: rotateY(180deg);
+    }
+    .abt{
+        text-align: justify;
+        margin: auto 18px;
+    }
+    .infoLink{
+        color: #ffa4a4;
+        text-decoration: none;
+        
+    }

@@ -1,0 +1,7 @@
+*{
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+body{
+    background-image: linear-gradient(to left, rgb(175, 0, 0), rgb(122, 0, 0));
+}
